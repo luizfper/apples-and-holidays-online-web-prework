@@ -120,4 +120,5 @@ def all_holidays_with_bbq(holiday_hash)
       asd<<k2 if v2.include?("BBQ")
     end
   end
+  asd      
 end
