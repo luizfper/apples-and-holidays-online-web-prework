@@ -117,7 +117,7 @@ def all_holidays_with_bbq(holiday_hash)
   asd=[]
   holiday_hash.each do |k,v|
     v.each do |k2, v2|
-      winter_supplies<<v2
+      asd<<k2 if v2.include?("BBQ")
     end
   end
   winter_supplies.flatten
